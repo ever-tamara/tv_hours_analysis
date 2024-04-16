@@ -7,3 +7,4 @@ tv_hours_tabulation <- gss_cat %>%
   summarise(mean_tv_hours = mean (tvhours, na.rm = T))
 
 write_csv(tv_hours_tabulation, here("tv_hours_by_marital.csv"))
+
